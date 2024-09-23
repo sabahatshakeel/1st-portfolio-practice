@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(19, 18, 18);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo p {
+            margin-top: 25px;
+            font-size: 1.5rem;
+        }
+
+        .img {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-image: url('images/pngwing.com\ \(1\).png');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+        }
+
+        ul li {
+            list-style: none;
+            margin: 10px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            /* background-color: aquamarine; */
+            padding: 10px;
+        }
+
+        button {
+            color: red;
+            background-color: white;
+            padding: 10px 15px;
+        }
+
+        main {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: black;
+        }
+
+        .first {
+            width: 50%;
+            padding-left: 40px;
+        }
+
+        .first span {
+            color: red;
+        }
+
+        .first h1 {
+            font-size: 2rem;
+            margin: 15px 0;
+        }
+
+        .first .text {
+            font-size: 1.2rem;
+        }
+
+        .second {
+            width: 35%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <div class="img"></div>
+                <p>INDIGO</p>
+            </div>
+
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">FEATURES</a></li>
+                <li><a href="">PORTFOLIO</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="">CONTACT US</a></li>
+                <li><a href="">RESUME</a></li>
+            </ul>
+
+            <button>
+                BUY NOW
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first">
+            <p class="text">WELCOME TO MY WORLD</p>
+            <h1>Hi, I'm <span>SABAHAT SHAKEEL</span> <br>a Developer.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vero placeat facere id, cupiditate quidem
+                consequatur, similique aut orns nam at fugiat quam dolore repellat dignissimos! Itaque similique ducimus
+                inventore animi.</p>
+        </section>
+
+        <section class="second">
+            <img src="images/pngwing.com (1).png" alt="" width="500px">
+        </section>
+    </main>
+
+</body>
+
+</html>
